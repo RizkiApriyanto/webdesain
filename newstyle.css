@@ -1,0 +1,170 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    height: 9vh;
+}
+
+header .logo {
+    font-family: Arial;
+    padding-top: 5px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+header .menu {
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.menu {
+    padding-bottom: -10px;
+    margin-top: -40px;
+}
+
+ul li {
+    display: inline-block;
+    float: right;
+    padding: 7px 20px;
+    border-radius: 20px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+ul li a:hover{
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    box-shadow: 0px 1px 18px white
+}
+
+.login{
+    margin-left: -15px;
+    border-radius: 20px;
+}
+
+.satu {
+    background-image: url(https://pbs.twimg.com/media/EKlfNTLU4AAmS3n.jpg);
+    background-size: cover;
+    max-width: 1390px;
+    height: 600px;
+    color: black;
+}
+
+.selamat h2 {
+    font-family: 'Arial', sans-serif;
+    color: black;
+    text-align: center;
+    padding-top: 150px;
+    font-size: 40px;
+}
+
+.sudiro h1 {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 95px;
+}
+
+.tungga h2 {
+    text-align: center;
+    color: black;
+    font-size: 22px;
+    padding-bottom: 30px;
+}
+
+.jaya h2 {
+    text-align: center;
+    color: black;
+    font-size: 22px;
+    padding-bottom: 30px;
+}
+
+.contact-us a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: white;
+    margin: 450px;
+    padding: 10px 30px;
+    font-size: 18px;
+    border-radius: 17px;
+}
+.contact-us :hover{
+    background-color:  white;
+    padding: 10px 30px;
+    color: black;
+    box-shadow: 0px 1px 18px white
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+footer h1{
+    font-family: 'Teko', sans-serif;
+    font-size: 35px;
+}
+
+@media screen and (max-width: 768px){
+    .satu .sudiro h2{
+        margin-left: 220px;
+        font-size: 30px;
+    }
+
+    .tungga h1{
+        font-size: 66px;
+        margin-left: 110px;
+    }
+
+    .contact-us a{
+        margin-left: 230px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    ul li{
+        padding: 25px 10px;
+    }
+
+    .menu ul li a{
+        padding: 10px 15px;
+    }
+
+    header .logo{
+        font-size: 18px;
+        padding-left: 20px;
+    }
+
+    .satu .sudiro h2{
+        margin-left: 180px;
+        font-size: 20px;
+    }
+
+    .satu .sudiro h1{
+        font-size: 45px;
+        margin-left: 90px;
+    }
+
+    .tungga p{
+        font-size: 15px;
+    }
+
+    .contact-us a{
+        font-size: 16px;
+        margin-left: 550px;
+    }
+}
